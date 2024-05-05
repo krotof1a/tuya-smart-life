@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from tuya_sharing import Manager, CustomerDevice
 
-from homeassistant.backports.enum import StrEnum
+from enum import StrEnum
 from homeassistant.components.alarm_control_panel import (
     AlarmControlPanelEntity,
     AlarmControlPanelEntityDescription,
